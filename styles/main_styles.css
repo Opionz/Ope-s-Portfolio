@@ -711,7 +711,7 @@ section
 	right: -400px;
 	width: 400px;
 	height: 100vh;
-	background: #FFFFFF;
+	background-color: #011936;
 	z-index: 11;
 	opacity: 0;
 	-webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
@@ -722,11 +722,13 @@ section
 }
 .menu_container.active
 {
+	background-color: #011936;
 	right: 0;
 	opacity: 1;
 }
 .menu
 {
+	background-color: #011936;
 	width: 100%;
 	height: 100%;
 }
@@ -777,7 +779,7 @@ section
 }
 .menu ul li a
 {
-	color: #000;
+	color: #CED0CE;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
